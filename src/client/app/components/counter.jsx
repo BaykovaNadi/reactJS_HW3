@@ -5,7 +5,7 @@ export default class Counter extends Component {
     constructor() {
         super(props);
         this.state = {
-            counter: 0
+            counter: +props.initial
         };        
     }
 
@@ -27,6 +27,7 @@ export default class Counter extends Component {
 
     render() {
         const { counter } = this.state;
+
         return <div>
             <a className = "left" href='#' onClick={this.minusHandler}>-</a>
             { counter }

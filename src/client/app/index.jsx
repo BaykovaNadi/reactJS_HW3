@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return <div>
             <Header />
-            <Counter />
+            <Counter initial="10" />
             Helloworld from ReactJS111111111111
             <Footer />
         </div>;
