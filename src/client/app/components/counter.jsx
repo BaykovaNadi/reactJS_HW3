@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Counter extends Component {
-    constructor() {
+    constructor(props) {
         super(props);
+        
         this.state = {
             counter: +props.initial
         };        
