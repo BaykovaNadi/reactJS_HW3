@@ -14,7 +14,6 @@ class App extends Component {
         return <div>
             <Header />
             <Menu />
-            <ButtonSignIn />
             <Content />
             <Footer />
         </div>;
