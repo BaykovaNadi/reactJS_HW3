@@ -4,7 +4,13 @@ import { Button } from 'reactstrap';
 
 export default class Menu extends Component {
     render() {
-        return <menu type="context">
+        return <section className='name-company contents'>
+                <div className="telephons"> 
+                    <p id="tele">+7(499) 777-77-77</p>
+                    <p id="tele">+7(499) 777-77-77</p>
+                </div>
+            </section>
+            <menu type="context">
                     <p className="menu-text">
                         <a href="#"> Главная </a> | 
                         <a href="#"> Каталог </a> | 
